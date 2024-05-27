@@ -21,7 +21,7 @@ namespace MyContacts.Models
         public string Email { get; set; } = null!;
 
         [Required(ErrorMessage = "Please select a department")]
-
+        //Category Tabel'ın Foreign Keyi
         public int? CategoryId { get; set; }
 
         //Navigation property
